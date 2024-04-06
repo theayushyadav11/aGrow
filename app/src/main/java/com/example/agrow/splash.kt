@@ -30,7 +30,7 @@ class splash : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(binding.root)
         val imageView = findViewById<ImageView>(R.id.imageView)
-        val animator = ObjectAnimator.ofFloat(imageView, "alpha", 1.0f, 0.5f)
+        val animator = ObjectAnimator.ofFloat(imageView, "alpha", 0.0f, 1.0f)
         animator.duration = 3000 // Animation duration in milliseconds
         animator.start()
 

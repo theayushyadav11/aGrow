@@ -18,19 +18,12 @@ lateinit var binding:ActivityMainBinding
 binding=ActivityMainBinding.inflate(layoutInflater)
         setContentView(R.layout.activity_main)
 
-
-
-
-
-
-
         binding.btnLease.setOnClickListener(View.OnClickListener {
             startActivity(Intent(this@MainActivity,lease_sel::class.java))
         })
-
-
-
-
+        binding.prooo.setOnClickListener(View.OnClickListener {
+            startActivity(Intent(this@MainActivity,Profile::class.java))
+        })
     }
     fun trac(v: View)
     {
@@ -84,6 +77,16 @@ binding=ActivityMainBinding.inflate(layoutInflater)
     fun cli4(v: View)
     {
         startActivity(Intent(this@MainActivity,content::class.java))
+
+    }
+    fun add(v: View)
+    {
+        startActivity(Intent(this@MainActivity,add::class.java))
+
+    }
+    fun pro(v: View)
+    {
+        startActivity(Intent(this@MainActivity,Profile::class.java))
 
     }
 }

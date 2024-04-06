@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            android:orientation="vertical"
+            android:padding="15dp"
+            tools:context=".MainActivity">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:alpha="0.5"
+                android:scaleType="fitXY"
+                android:src="@drawable/feild1" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        app:cardCornerRadius="50dp" >
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/baseline_add_24" />
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Equipment Details"
+                android:textColor="#0B0B0B"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+
+                android:fontFamily="sans-serif-medium"
+                android:text="Contact Information"
+                android:textColor="#0B0B0B"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/tools_svgrepo_com" />
+                <EditText
+                    android:id="@+id/etPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+
+                    android:background="@drawable/cust_edit"
+
+
+                    android:drawablePadding="12dp"
+                    android:ems="10"
+                    android:hint="Product name"
+
+                    android:paddingStart="15dp"
+                    android:paddingEnd="20dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/baseline_edit_note_24" />
+
+                <EditText
+
+                    android:layout_width="220dp"
+                    android:layout_height="45dp"
+
+                    android:background="@drawable/cust_edit"
+
+
+                    android:drawablePadding="12dp"
+                    android:ems="10"
+                    android:hint="Product Description"
+
+                    android:paddingStart="15dp"
+                    android:paddingEnd="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/locationblack" />
+                <EditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+
+                    android:background="@drawable/cust_edit"
+
+
+                    android:drawablePadding="12dp"
+                    android:ems="10"
+                    android:hint="Enter Location Details"
+
+                    android:paddingStart="15dp"
+                    android:paddingEnd="20dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/rentaltimer_foreground"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="-"
+                        android:allowClickWhenDisabled="false"
+                        android:clickable="true"
+                        android:textStyle="bold"
+                        android:textSize="25dp"/>
+                    <EditText
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cust_edit"
+                        android:layout_marginRight="10dp"
+                        android:text="2"
+                        android:textAlignment="center"
+                        android:layout_marginLeft="10dp"/>
+                    <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+"
+                    android:allowClickWhenDisabled="false"
+                        android:clickable="true"
+                        android:textStyle="bold"
+                        android:textSize="25dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Week(s)"
+                        android:allowClickWhenDisabled="false"
+                        android:clickable="true"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="150dp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/baseline_monetization_on_24" />
+                <EditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+
+                    android:background="@drawable/cust_edit"
+
+
+                    android:drawablePadding="12dp"
+                    android:ems="10"
+                    android:hint="Enter price of your product"
+
+                    android:paddingStart="15dp"
+                    android:paddingEnd="20dp" />
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="submit"
+                android:layout_margin="20dp"
+                android:text="Submit" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
