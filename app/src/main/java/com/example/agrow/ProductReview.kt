@@ -1,3 +1,7 @@
+import org.web3j.crypto.Credentials
+import org.web3j.protocol.Web3j
+import org.web3j.tx.gas.DefaultGasProvider
+
 data class Review(
     val reviewer: String,
     val email: String,
@@ -5,7 +9,13 @@ data class Review(
     val content: String
 )
 
-class ProductReview {
+class ProductReview(
+    web3j: Web3j,
+    credentials: Credentials,
+    defaultGasProvider: DefaultGasProvider,
+    abiString: Any,
+    bytecodeString: Any
+) {
     private val hasReviewed = mutableMapOf<Int, MutableMap<String, Boolean>>()
     private val reviews = mutableMapOf<Int, MutableList<Review>>()
 
