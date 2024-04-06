@@ -202,8 +202,6 @@
                         android:textSize="20dp"
                         android:layout_marginLeft="150dp" />
                 </LinearLayout>
-
-
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -233,7 +231,6 @@
                     android:paddingStart="15dp"
                     android:paddingEnd="20dp" />
             </LinearLayout>
-
 
             <Button
                 android:id="@+id/button4"

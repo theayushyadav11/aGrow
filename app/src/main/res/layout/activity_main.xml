@@ -139,6 +139,7 @@ android:background="#F4F4F4"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="10dp"
                         android:gravity="center_vertical"
+                        android:onClick="cli1"
                         android:orientation="vertical">
 
                         <androidx.cardview.widget.CardView
@@ -168,6 +169,7 @@ android:background="#F4F4F4"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="10dp"
                         android:gravity="center_vertical"
+                        android:onClick="cli2"
                         android:orientation="vertical">
 
                         <androidx.cardview.widget.CardView
@@ -197,6 +199,7 @@ android:background="#F4F4F4"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="10dp"
                         android:gravity="center_vertical"
+                        android:onClick="cli3"
                         android:orientation="vertical">
 
                         <androidx.cardview.widget.CardView
@@ -226,6 +229,7 @@ android:background="#F4F4F4"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="10dp"
                         android:gravity="center_vertical"
+                        android:onClick="cli4"
                         android:orientation="vertical">
 
                         <androidx.cardview.widget.CardView
@@ -509,7 +513,6 @@ android:background="#F4F4F4"
 
         <LinearLayout
             android:layout_width="0dp"
-            android:onClick="add"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
@@ -546,12 +549,10 @@ android:background="#F4F4F4"
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/prooo"
             android:layout_width="0dp"
             android:layout_height="60dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:onClick="pro"
             android:orientation="vertical">
 
             <ImageView
@@ -559,7 +560,7 @@ android:background="#F4F4F4"
                 android:layout_width="30dp"
                 android:layout_height="25dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/baseline_person_24" />
+                app:srcCompat="@drawable/send" />
         </LinearLayout>
 
 
