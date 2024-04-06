@@ -1,3 +1,4 @@
+
 package com.example.agrow
 
 import android.content.Intent
@@ -21,7 +22,12 @@ class verify : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+<<<<<<<<< Temporary merge branch 1
         binding = ActivityVerifyBinding.inflate(layoutInflater)
+=========
+        binding=ActivityVerifyBinding.inflate(layoutInflater)
+
+>>>>>>>>> Temporary merge branch 2
         setContentView(binding.root)
 
         mAuth = FirebaseAuth.getInstance()
@@ -39,6 +45,7 @@ class verify : AppCompatActivity() {
                 Toast.makeText(this, "Please enter OTP", Toast.LENGTH_SHORT).show()
             }
         }
+<<<<<<<<< Temporary merge branch 1
     }
 
     private fun signInWithPhoneAuthCredential(credential: PhoneAuthCredential) {
@@ -85,4 +92,19 @@ class verify : AppCompatActivity() {
         startActivity(intent)
         finish()
     }
+=========
+        binding.tvPhone.setText(binding.tvPhone.text.toString()+intent.getStringExtra("phone"))
+        binding.btnVerify.setOnClickListener{
+            var otp=binding.pinOTP.text.toString()
+            if(otp.length==6)
+            {
+                val i= Intent(this,MainActivity::class.java)
+                startActivity(i)
+            }
+        }
+
+
+
+    }
+>>>>>>>>> Temporary merge branch 2
 }

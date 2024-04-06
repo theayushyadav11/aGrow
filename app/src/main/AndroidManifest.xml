@@ -15,10 +15,14 @@
         android:theme="@style/Theme.AGrow"
         tools:targetApi="31">
         <activity
+<<<<<<<<< Temporary merge branch 1
             android:name=".myCart"
             android:exported="false" />
         <activity
             android:name=".HomeActivity"
+=========
+            android:name=".cart"
+>>>>>>>>> Temporary merge branch 2
             android:exported="false" />
         <activity
             android:name=".verify"
