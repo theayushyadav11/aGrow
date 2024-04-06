@@ -47,8 +47,8 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tvPhone"
                 android:layout_width="wrap_content"
+                android:id="@+id/tvPhone"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/andika"
                 android:gravity="center"
@@ -72,12 +72,12 @@
                         android:id="@+id/pinOTP"
                         style="@style/PinWidget.PinView"
                         android:layout_width="wrap_content"
-                        app:itemWidth="40dp"
-                        app:itemHeight="40dp"
                         android:layout_height="wrap_content"
                         android:gravity="center"
+                        app:itemHeight="40dp"
+                        app:itemWidth="40dp"
                         android:inputType="phone"
-                     app:itemCount="6"
+                        app:itemCount="6"
                         android:padding="20dp" />
 
                 </LinearLayout>

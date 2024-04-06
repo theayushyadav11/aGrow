@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -11,6 +12,8 @@ android {
         viewBinding=true
     }
     defaultConfig {
+        renderscriptTargetApi=19
+        renderscriptSupportModeEnabled=true
         applicationId = "com.example.agrow"
         minSdk = 24
         targetSdk = 34
@@ -45,10 +48,15 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.firebase.database)
+    implementation(libs.firebase.firestore)
+    implementation(libs.firebase.firestore.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
+    implementation ("link.magic:magic-android:4.0.0")
+    implementation ("org.web3j:core:4.8.8-android")
+    implementation ("org.web3j:geth:4.8.8-android")
     androidTestImplementation(libs.androidx.espresso.core)
-
     implementation("io.github.chaosleung:pinview:1.4.4")
     implementation("com.google.firebase:firebase-auth")
     implementation(platform("com.google.firebase:firebase-bom:32.8.0"))
