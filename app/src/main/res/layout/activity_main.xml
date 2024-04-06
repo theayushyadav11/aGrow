@@ -301,7 +301,7 @@ android:background="#F4F4F4"
                         android:layout_width="150dp"
                         android:layout_height="match_parent"
                         android:layout_marginRight="15dp"
-                        android:onClick="pixel"
+                        android:onClick="trac"
                         android:orientation="vertical">
 
 
@@ -314,9 +314,9 @@ android:background="#F4F4F4"
 
                             <ImageView
                                 android:id="@+id/imageView74"
-                                android:padding="12dp"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:padding="12dp"
                                 app:srcCompat="@drawable/tractor" />
 
                         </RelativeLayout>
@@ -339,7 +339,7 @@ android:background="#F4F4F4"
                         android:layout_width="150dp"
                         android:layout_height="match_parent"
                         android:layout_marginRight="15dp"
-                        android:onClick="baseCamp"
+                        android:onClick="thresher"
                         android:orientation="vertical">
 
 
@@ -355,10 +355,6 @@ android:background="#F4F4F4"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 app:srcCompat="@drawable/threshor" />
-
-
-
-
 
 
                         </RelativeLayout>
@@ -381,7 +377,7 @@ android:background="#F4F4F4"
                         android:layout_width="150dp"
                         android:layout_height="match_parent"
                         android:layout_marginRight="15dp"
-                        android:onClick="steel"
+                        android:onClick="harvest"
                         android:orientation="vertical">
 
 
@@ -458,9 +454,10 @@ android:background="#F4F4F4"
 
 
             </HorizontalScrollView>
+
             <View
                 android:layout_width="match_parent"
-                android:layout_height="50dp"/>
+                android:layout_height="50dp" />
         </LinearLayout>
 
     </ScrollView>
@@ -489,11 +486,13 @@ android:background="#F4F4F4"
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/btnLease"
             android:layout_width="0dp"
             android:layout_height="60dp"
             android:layout_weight="1"
-            android:gravity="center"
 
+            android:gravity="center"
+            android:onClick="lease"
             android:orientation="vertical">
 
             <ImageView

@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.example.agrow" />
+                  <option name="mobileSdkAppId" value="1:770679859357:android:35c388c6296d7a60fbcc74" />
+                  <option name="projectId" value="agrow-922de" />
+                  <option name="projectNumber" value="770679859357" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

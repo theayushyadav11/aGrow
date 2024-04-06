@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "770679859357",
+    "project_id": "agrow-922de",
+    "storage_bucket": "agrow-922de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770679859357:android:35c388c6296d7a60fbcc74",
+        "android_client_info": {
+          "package_name": "com.example.agrow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxBj8GZdpTkec0ALpVP6X_irqeN6-7-tM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
