@@ -47,11 +47,12 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/tvPhone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/andika"
                 android:gravity="center"
-                android:text="Enter the four digit no which we send to (+91) "
+                android:text="Enter the six digit no which we send to (+91) "
                 android:textColor="#6E6C6C"
                 android:textSize="18sp" />
 
@@ -71,10 +72,12 @@
                         android:id="@+id/pinOTP"
                         style="@style/PinWidget.PinView"
                         android:layout_width="wrap_content"
+                        app:itemWidth="40dp"
+                        app:itemHeight="40dp"
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:inputType="phone"
-
+                     app:itemCount="6"
                         android:padding="20dp" />
 
                 </LinearLayout>
