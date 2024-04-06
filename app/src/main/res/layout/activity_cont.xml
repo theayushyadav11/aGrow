@@ -72,8 +72,7 @@
                         android:ems="10"
                         android:hint="Enter Phone Number"
                         android:inputType="phone"
-                        android:paddingStart="15dp"
-                        android:text="9696620395" />
+                        android:paddingStart="15dp" />
 
                     <TextView
                         android:id="@+id/textView2"

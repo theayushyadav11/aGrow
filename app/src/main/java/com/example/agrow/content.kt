@@ -1,11 +1,15 @@
 package com.example.agrow
 
+import android.content.DialogInterface
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.widget.ImageView
+import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
@@ -32,6 +36,24 @@ lateinit var binding:ActivityContentBinding
             card.findViewById<ImageView>(R.id.thumb).setImageResource(data[i].img)
             card.findViewById<TextView>(R.id.Head).setText(data[i].title)
             card.findViewById<TextView>(R.id.test).setText(data[i].price)
+            card.findViewById<LinearLayout>(R.id.rent).setOnClickListener{
+                val builder = AlertDialog.Builder(this)
+
+                // Set dialog title and message
+                builder.setTitle("Rented a Product")
+                    .setMessage("The product listed was rented!")
+
+                // Set positive button and its click listener
+                builder.setPositiveButton("OK") { dialogInterface: DialogInterface, _: Int ->
+                    // Dismiss the dialog
+                    startActivity(Intent(this@content,MainActivity::class.java))
+                    dialogInterface.dismiss()
+                }
+
+                // Create and show the AlertDialog
+                val alertDialog = builder.create()
+                alertDialog.show()
+            }
         }
 
     }

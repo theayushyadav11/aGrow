@@ -513,6 +513,7 @@ android:background="#F4F4F4"
 
         <LinearLayout
             android:layout_width="0dp"
+            android:onClick="add"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
@@ -560,7 +561,8 @@ android:background="#F4F4F4"
                 android:layout_width="30dp"
                 android:layout_height="25dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/send" />
+                android:onClick="pro"
+                app:srcCompat="@drawable/baseline_person_24" />
         </LinearLayout>
 
 

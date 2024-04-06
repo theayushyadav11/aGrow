@@ -86,4 +86,14 @@ binding=ActivityMainBinding.inflate(layoutInflater)
         startActivity(Intent(this@MainActivity,content::class.java))
 
     }
+    fun add(v: View)
+    {
+        startActivity(Intent(this@MainActivity,add::class.java))
+
+    }
+    fun pro(v: View)
+    {
+        startActivity(Intent(this@MainActivity,Profile::class.java))
+
+    }
 }

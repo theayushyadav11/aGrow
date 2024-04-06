@@ -1,5 +1,5 @@
 package com.example.agrow
-
+import com.google.firebase. firestore.FirebaseFirestore
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
@@ -9,7 +9,7 @@ import com.example.agrow.databinding.ActivityVerifyBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.PhoneAuthCredential
 import com.google.firebase.auth.PhoneAuthProvider
-import com.google.firebase. firestore.FirebaseFirestore
+
 
 class verify : AppCompatActivity() {
     private lateinit var binding: ActivityVerifyBinding
@@ -35,7 +35,7 @@ binding.tvPhone.setText(binding.tvPhone.text.toString()+phoneNumber)
             if (otp.isNotEmpty()) {
              /*   val credential = PhoneAuthProvider.getCredential(verificationId, otp)
                 signInWithPhoneAuthCredential(credential)*/
-
+                Toast.makeText(this, "OTP verified Successfull", Toast.LENGTH_SHORT).show()
                 val intent = Intent(this@verify, splash::class.java)
 
                 startActivity(intent)
