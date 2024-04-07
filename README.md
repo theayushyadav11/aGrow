@@ -3,11 +3,7 @@
 
 ## Description
 
-
-Certainly! Here's an expanded description for the aGROW app:
-
-Description
-aGROW is an innovative online platform designed to revolutionize the agricultural landscape,
+**aGROW** is an innovative online platform designed to revolutionize the agricultural landscape,
 catering specifically to the needs of farmers. With a mission to empower farmers and enhance 
 agricultural productivity, aGROW provides a comprehensive platform for lending and renting essential 
 farming equipment.
@@ -24,7 +20,9 @@ dependency on neighbors and connections.
 
 ## Installation 
 
-The project app can be installed using the following apk
+The project app can be installed using the following link:
+
+[aGROW](https://drive.google.com/file/d/1Np6XCI-wSZmMSv56Fej98ScBhQO4mcn3/view?usp=sharing)
 
 ## How to use the app
 
@@ -56,10 +54,10 @@ of Indian Institute of Information Technology, Lucknow.
 
 The contributors of the project are :
 
-  * [AMANVISHWAKARMA27](git@github.com:AMANVISHWAKARMA11)
-  * [theayushyadav11](git@github.com:theayushyadav11)
-  * [salonii02](git@github.com:salonii02)
-  * [ssarthakxtiwari](git@github.com:sarthakxtiwari)
+  * [AMANVISHWAKARMA27](https://github.com/AMANVISHWAKARMA27)
+  * [theayushyadav11](https://github.com/theayushyadav11)
+  * [salonii02](https://github.com/salonii02)
+  * [ssarthakxtiwari](https://github.com/sarthakxtiwari)
 
 
 ------------------------------------------------------------------------------------------------
