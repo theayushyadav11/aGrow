@@ -3,8 +3,14 @@
 
 ## Description
 
-aGROW is an online app dedicated to benefiting farmers by providing a platform for lending 
-and renting farming equipment, including tractors, threshers, ploughs, etc.
+
+Certainly! Here's an expanded description for the aGROW app:
+
+Description
+aGROW is an innovative online platform designed to revolutionize the agricultural landscape,
+catering specifically to the needs of farmers. With a mission to empower farmers and enhance 
+agricultural productivity, aGROW provides a comprehensive platform for lending and renting essential 
+farming equipment.
 
 ## Problem it solves
 
@@ -33,13 +39,13 @@ reach the HOME page.
 
 **Step 3**: On the HOME page, you can utilize the following features:
 
-[] Buying agricultural products.
-[] Renting tools.
-[] Adding your own product for rent.
-[] Adding products to the cart for purchase.
-[] Profile building is not initially required but will be prompted through scheduled pop-ups. 
+- Buying agricultural products.
+- Renting tools.
+- Adding your own product for rent.
+- Adding products to the cart for purchase.
+- Profile building is not initially required but will be prompted through scheduled pop-ups. 
 There's a direct button on the HOME page to reach the profile page.
-[] You can also lease your land or find land listed for lease.
+- You can also lease your land or find land listed for lease.
 
 The app provides a comprehensive solution for farmers, especially during times of need.
 
@@ -50,11 +56,12 @@ of Indian Institute of Information Technology, Lucknow.
 
 The contributors of the project are :
 
-    [x] [AMANVISHWAKARMA27](git@github.com:AMANVISHWAKARMA11)
-    [X] [theayushyadav11](git@github.com:theayushyadav11)
-    [x] [salonii02](git@github.com:salonii02)
-    [x] [ssarthakxtiwari](git@github.com:sarthakxtiwari)
-
+  * [AMANVISHWAKARMA27](git@github.com:AMANVISHWAKARMA11)
+  * [theayushyadav11](git@github.com:theayushyadav11)
+  * [salonii02](git@github.com:salonii02)
+  * [ssarthakxtiwari](git@github.com:sarthakxtiwari)
 
 
 ------------------------------------------------------------------------------------------------
+
+
